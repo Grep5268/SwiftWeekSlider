@@ -1,0 +1,22 @@
+{
+  "name": "SwiftWeekSlider",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftWeekSlider.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Gary Frazier/SwiftWeekSlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gary Frazier": "garyfrazier95@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/Gary Frazier/SwiftWeekSlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftWeekSlider/Classes/**/*"
+}
