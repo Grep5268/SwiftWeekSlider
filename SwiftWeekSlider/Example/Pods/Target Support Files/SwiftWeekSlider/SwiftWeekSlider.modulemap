@@ -1,0 +1,6 @@
+framework module SwiftWeekSlider {
+  umbrella header "SwiftWeekSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

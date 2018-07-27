@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+  - SwiftWeekSlider (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - SwiftWeekSlider (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftWeekSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftWeekSlider: f99d8f742111f63dd0783a81366137b5f9202265
+
+PODFILE CHECKSUM: 1a4ed2e133bb3c518fdb1eeda069609fe6fbd2b9
+
+COCOAPODS: 1.2.0.beta.1
