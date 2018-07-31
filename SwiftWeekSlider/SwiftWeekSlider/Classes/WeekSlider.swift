@@ -31,6 +31,7 @@ import Foundation
     
     public  var scrollViewColor: UIColor! = UIColor.blue
     public var textColor: UIColor! = UIColor.white
+    public var highlightColor: UIColor! = UIColor.yellow
     
     @objc public var onClick: (() -> ())?
     
@@ -200,6 +201,10 @@ import Foundation
                 sixthDayOnClick = day.onClick
             } else if(button.tag == 6) {
                 seventhDayOnClick = day.onClick
+            }
+            
+            if(day.highlighted) {
+                button.backgroundColor = self.highlightColor
             }
             
             button.addTarget(self, action: #selector(self.buttonClicked), for: .touchUpInside)
