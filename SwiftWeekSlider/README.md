@@ -26,4 +26,4 @@ Gary Frazier, garyfrazier95@yahoo.com
 
 ## License
 
-SwiftWeekSlider is available under the MIT license. See the LICENSE file for more info.
+SwiftWeekSlider is available under the MIT license. Check the LICENSE file for more info.
