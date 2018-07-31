@@ -1,13 +1,13 @@
 import Foundation
 
 public struct DayConfigModel {
-    let date: Date
-    let isHoliday: Bool
-    let onClick: (() -> ())?
+    public var date: Date
+    public var highlighted: Bool
+    public var onClick: (() -> ())?
     
-    public init(date: Date, isHoliday: Bool = false, onClick: (() -> ())? = nil) {
+    public init(date: Date, highlighted: Bool = false, onClick: (() -> ())? = nil) {
         self.date = date
-        self.isHoliday = isHoliday
+        self.highlighted = highlighted
         self.onClick = onClick
     }
 }

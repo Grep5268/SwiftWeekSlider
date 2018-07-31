@@ -23,7 +23,10 @@ class ViewController: UIViewController {
         weekSlider.scrollViewColor = UIColor.cyan
         
         weekSlider.dayConfig = [
-            DayConfigModel(date: Date()),
+            DayConfigModel(date: Date(), onClick: {() in
+                self.weekSlider.dayConfig![0].highlighted = !self.weekSlider.dayConfig![0].highlighted
+                self.weekSlider.setupCells()
+            }),
             DayConfigModel(date: calendar.date(byAdding: .day, value: 1, to: Date())!, onClick: {() in
                 self.weekSlider.textColor = UIColor.red
                 self.weekSlider.setupCells()
