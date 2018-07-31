@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftWeekSlider"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "An interactive week view with custom colors, and actions."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "SwiftWeekSlider", "Classes", "Classes/Models", "Classes/Extensions", "Classes/Constants"
+s.source_files  = "SwiftWeekSlider/SwiftWeekSlider/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
